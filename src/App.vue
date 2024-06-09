@@ -86,6 +86,9 @@ function GetInpInfo(e) {
          InpInfo.value = "";
       }
    }
+   if(EditLet.value == true) {
+      LocalAryy.value[EditIndex.value].title = InpInfo.value
+   }
 }
 
 
