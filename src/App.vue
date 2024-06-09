@@ -79,7 +79,7 @@ function GetInpInfo(e) {
          LocalAryy.value[EditIndex.value].title = InpInfo.value;
          EditLet.value = false;
          InpInfo.value = "";
-         document.querySelectorAll(".MenuDiv")[EditIndex.value].style.display = "none";
+         document.querySelectorAll(".MenuDiv")[EditIndex.value].classList.remove("active")
          localStorage.setItem("myArray", JSON.stringify(LocalAryy.value));
       } else {
          LocalSave();
