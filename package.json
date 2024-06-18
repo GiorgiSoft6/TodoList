@@ -10,7 +10,8 @@
     "build:css": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
